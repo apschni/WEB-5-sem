@@ -9,6 +9,12 @@
         <script src="./js/pageLoadTime.js"></script>
         <meta name="description" content="Сайт Лендинг Пасичник Артем M33051" />
         <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+        />
+        <!-- Подключаем css стили для hint.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css" integrity="sha512-gnj0WGxmbeTgYXck9CyFjrdkEFcZE4xwnJb/nG3bcl5OlWHJ9ixRkJK0MDPtCytnO3IBIh0Omqawv0UPpl0LoA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Landing Site</title>
     </head>
     <body>
@@ -64,68 +70,93 @@
             <section class="main-partners">
                 <div class="main-partners__container">
                     <ul class="main-partners-list">
+                      <!-- указываем как в документации в span class='hint--top' чтобы сверху появлялся тултип и передаем ему в aria-label атрибут с нужным нам текстом -->
+                      <span class="hint--top" aria-label="Apple">
                         <a href="https://google.com" target="_blank">
-                            <li class="main-partners-list__item">
-                                <img
-                                    src="./images/partners/apple.svg"
-                                    alt="apple"
-                                />
-                            </li>
+                          <li class="main-partners-list__item">
+                              <img
+                                  src="./images/partners/apple.svg"
+                                  alt="apple"
+                              />
+                          </li>
+                      </a>
+                      </span>
+                      <!-- указываем как в документации в span class='hint--top' чтобы сверху появлялся тултип и передаем ему в aria-label атрибут с нужным нам текстом -->
+                      <span class="hint--top" aria-label="Buzzfeed">
+                        <a href="https://google.com" target="_blank">
+                          <li class="main-partners-list__item">
+                              <img
+                                  src="./images/partners/buzzfeed.svg"
+                                  alt="buzzfeed"
+                              />
+                          </li>
+                      </a>
+                      </span>
+                      <!-- указываем как в документации в span class='hint--top' чтобы сверху появлялся тултип и передаем ему в aria-label атрибут с нужным нам текстом -->
+                      <span class="hint--top" aria-label="Dropbox">
+                        <a href="https://google.com" target="_blank">
+                          <li class="main-partners-list__item">
+                              <img
+                                  src="./images/partners/dropbox.svg"
+                                  alt="dropbox"
+                              />
+                          </li>
+                      </a>
+                      </span>
+                      <!-- указываем как в документации в span class='hint--top' чтобы сверху появлялся тултип и передаем ему в aria-label атрибут с нужным нам текстом -->
+                      <span class="hint--top" aria-label="Facebook">
+                        <a href="https://google.com" target="_blank">
+                          <li class="main-partners-list__item">
+                              <img
+                                  src="./images/partners/facebook.svg"
+                                  alt="facebook"
+                              />
+                          </li>
                         </a>
+                      </span>
+                      <!-- указываем как в документации в span class='hint--top' чтобы сверху появлялся тултип и передаем ему в aria-label атрибут с нужным нам текстом -->
+                      <span class="hint--top" aria-label="Fitbit">
                         <a href="https://google.com" target="_blank">
-                            <li class="main-partners-list__item">
-                                <img
-                                    src="./images/partners/buzzfeed.svg"
-                                    alt="buzzfeed"
-                                />
-                            </li>
-                        </a>
+                          <li class="main-partners-list__item">
+                              <img
+                                  src="./images/partners/fitbit.svg"
+                                  alt="fitbit"
+                              /></li
+                      ></a>
+                      </span>
+                      <!-- указываем как в документации в span class='hint--top' чтобы сверху появлялся тултип и передаем ему в aria-label атрибут с нужным нам текстом -->
+                      <span class="hint--top" aria-label="Google">
                         <a href="https://google.com" target="_blank">
-                            <li class="main-partners-list__item">
-                                <img
-                                    src="./images/partners/dropbox.svg"
-                                    alt="dropbox"
-                                />
-                            </li>
-                        </a>
+                          <li class="main-partners-list__item">
+                              <img
+                                  src="./images/partners/google.svg"
+                                  alt="google"
+                              /></li
+                      ></a>
+                      </span>
+                      <!-- указываем как в документации в span class='hint--top' чтобы сверху появлялся тултип и передаем ему в aria-label атрибут с нужным нам текстом -->
+                      <span class="hint--top" aria-label="Sega">
                         <a href="https://google.com" target="_blank">
-                            <li class="main-partners-list__item">
-                                <img
-                                    src="./images/partners/facebook.svg"
-                                    alt="facebook"
-                                />
-                            </li>
-                        </a>
+                          <li class="main-partners-list__item">
+                              <img
+                                  src="./images/partners/sega.svg"
+                                  alt="sega"
+                              />
+                          </li>
+                      </a>
+                      </span>
+                      <!-- указываем как в документации в span class='hint--top' чтобы сверху появлялся тултип и передаем ему в aria-label атрибут с нужным нам текстом -->
+                      <span class="hint--top" aria-label="Stripe">
                         <a href="https://google.com" target="_blank">
-                            <li class="main-partners-list__item">
-                                <img
-                                    src="./images/partners/fitbit.svg"
-                                    alt="fitbit"
-                                /></li
-                        ></a>
-                        <a href="https://google.com" target="_blank">
-                            <li class="main-partners-list__item">
-                                <img
-                                    src="./images/partners/google.svg"
-                                    alt="google"
-                                /></li
-                        ></a>
-                        <a href="https://google.com" target="_blank">
-                            <li class="main-partners-list__item">
-                                <img
-                                    src="./images/partners/sega.svg"
-                                    alt="sega"
-                                />
-                            </li>
-                        </a>
-                        <a href="https://google.com" target="_blank">
-                            <li class="main-partners-list__item">
-                                <img
-                                    src="./images/partners/stripe.svg"
-                                    alt="stripe"
-                                />
-                            </li>
-                        </a>
+                          <li class="main-partners-list__item">
+                              <img
+                                  src="./images/partners/stripe.svg"
+                                  alt="stripe"
+                              />
+                          </li>
+                      </a>
+                      </span>
+                        
                     </ul>
                 </div>
             </section>
@@ -191,6 +222,33 @@
                     </li>
                 </ul>
             </section>
+            <div class="examples">
+              <h2 class="examples__header">Наши работы</h2>
+              <div class="swiper">
+                <div class="swiper-buttons">
+                    <div class="swiper-prev">
+                        Previous slide
+                    </div>
+                    <div class="swiper-next">
+                        Next slide
+                    </div>
+                </div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <h3>1-ая работа</h3>
+                    <img src="./images/example.svg" alt="example_1">
+                  </div>
+                  <div class="swiper-slide">
+                    <h3>2-ая работа</h3>
+                    <img src="./images/example.svg" alt="example_2">
+                  </div>
+                  <div class="swiper-slide">
+                    <h3>3-ая работа</h3>
+                    <img src="./images/example.svg" alt="example_3">
+                  </div>
+                </div>
+            </div>
+            </div>
         </main>
 
         <footer class="footer">
@@ -218,5 +276,7 @@
             </div>
         </footer>
         <script src="./js/glowNavbarButton.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/swiperConfig.js"></script>
     </body>
 </html>
